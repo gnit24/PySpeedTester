@@ -20,45 +20,37 @@
 ## Installation
 
 1. **Clone this repository**:
-    ```sh
+    ```
     git clone https://github.com/gnit24/PySpeedTester.git
     cd PySpeedTester
     ```
 
 2. **Install the required library**:
-    ```sh
+    ```
     pip install -r requirements.txt
     ```
 
 ## Usage
 
 Run the script from the command line:
-```sh
+```
 python pyspeedtester.py
 ```
 
 The script will prompt you to press Enter to start the speed test. It will then find the best server, measure the download and upload speeds, and check the ping. Finally, it will display the results in a professional format.
 
 **Preview**
+
 <img src="/images/demo.gif" width="320" height="480"/>
 
 ## Example Output
 
 ```
-Press Enter to Start the speed test...
-Finding the best server...
-Connected to example.server.com located in Country
-
-Testing download speed...
-Testing upload speed...
-
-Speed Test Results:
+Press Enter to Start
 ------------------------------
-Metric           Speed
-------------------------------
-Download Speed:      123.45 Mbps
-Upload Speed:         67.89 Mbps
-Ping:                   12 ms
+D/L:  123.45 Mbps
+U/L:  67.89 Mbps
+Ping: 12 ms
 ------------------------------
 ```
 
