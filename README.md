@@ -46,11 +46,12 @@ The script will prompt you to press Enter to start the speed test. It will then 
 ## Example Output
 
 ```
-Press Enter to Start
+Press Enter to Start:
 ------------------------------
+Server: Cherokee Communications, Calera, OK, United States
 D/L:  123.45 Mbps
 U/L:  67.89 Mbps
-Ping: 12 ms
+Ping: 63 ms
 ------------------------------
 ```
 
@@ -65,7 +66,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ⭐ **Star this repo if you find it useful!**
-```
+
 &nbsp;
 &nbsp;
 &nbsp;
